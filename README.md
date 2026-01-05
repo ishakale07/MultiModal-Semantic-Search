@@ -1,4 +1,3 @@
-```markdown
 # Multimodal Semantic Search Engine
 
 A cross-modal retrieval system that enables searching across text, images, audio, and video using any modality as input.
