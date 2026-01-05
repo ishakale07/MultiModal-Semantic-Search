@@ -1,0 +1,41 @@
+```
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model checkpoints
+models/checkpoints/*.pth
+embeddings/*.index
+embeddings/*.pkl
+
+# Data files (too large for git)
+data/text/*
+data/images/*
+data/audio/*
+data/videos/*
+!data/*/.gitkeep
+
+# Temporary files
+temp_*
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+```
